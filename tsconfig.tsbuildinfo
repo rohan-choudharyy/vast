@@ -1,0 +1,1 @@
+{"root":["./src/fixedwindow.ts","./src/index.ts","./src/slidingwindow.ts","./src/tokenbucket.ts","./src/vitest.config.ts","./src/tests/fixedwindow.test.ts","./src/tests/slidingwindow.test.ts","./src/tests/tokenbucket.test.ts"],"version":"5.6.2"}
