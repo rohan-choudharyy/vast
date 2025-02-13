@@ -12,7 +12,7 @@ This library provides three types of rate limiting algorithms: Fixed Window, Sli
 
 To install the library, use npm:
 ```bash
-npm install vast
+npm install vastapi
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ npm install vast
 ### Fixed Window Rate Limiter
 
 ```typescript
-import { FixedWindowRateLimiter } from 'ts-ratelimit';
+import { FixedWindowRateLimiter } from 'vastapi';
 
 const limiter = new FixedWindowRateLimiter(5, 60000); // 5 requests per minute
 const key = 'user-ip';
@@ -35,7 +35,7 @@ if (limiter.makeRequest(key)) {
 ### Sliding Window Rate Limiter
 
 ```typescript
-import { SlidingWindowRateLimiter } from 'ts-ratelimit';
+import { SlidingWindowRateLimiter } from 'vastapi';
 
 const limiter = new SlidingWindowRateLimiter(5, 60000); // 5 requests per minute
 const key = 'user-ip';
@@ -50,7 +50,7 @@ if (limiter.makeRequest(key)) {
 ### Token Bucket Rate Limiter
 
 ```typescript
-import { TokenBucketRateLimiter } from 'ts-ratelimit';
+import { TokenBucketRateLimiter } from 'vastapi';
 
 const limiter = new TokenBucketRateLimiter(5, 1/1000); // 5 tokens, refilling at 1 token per second
 const key = 'user-ip';
