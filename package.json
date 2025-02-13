@@ -1,6 +1,6 @@
 {
-  "name": "ts-ratelimit",
-  "version": "1.0.0",
+  "name": "vast",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -9,7 +9,7 @@
     "test": "vitest"
   },
   "keywords": [],
-  "author": "",
+  "author": "rohvn",
   "license": "ISC",
   "description": "",
   "dependencies": {
