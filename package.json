@@ -1,6 +1,6 @@
 {
-  "name": "vastapi",
-  "version": "1.0.1",
+  "name": "vast-api",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
